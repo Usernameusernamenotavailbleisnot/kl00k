@@ -1,0 +1,22 @@
+# Maximum number of operations per wallet
+maxOperations: 10
+
+# Delays between operations
+delays:
+  min: 10000    # minimum delay in ms (10 seconds)
+  max: 30000    # maximum delay in ms (30 seconds)
+
+# Retry configuration
+retries:
+  max: 10       # maximum number of retry attempts
+  delay: 5000   # base delay between retries in ms (5 seconds)
+
+# Timeout configuration 
+timeouts:
+  connect: 920000  # connection timeout in ms (15 minutes)
+  request: 920000  # request timeout in ms (15 minutes)
+
+# Chat configuration
+chat:
+  messages:
+    - "what is klok AI"
