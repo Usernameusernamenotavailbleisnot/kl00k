@@ -20,3 +20,12 @@ timeouts:
 chat:
   messages:
     - "what is klok AI"
+    - "how does klok AI work"
+    - "what are the benefits of using klok AI"
+    - "tell me about klok AI features"
+
+# CapSolver configuration
+capsolver:
+  apiKey: "APIKEY"    # Replace with your actual API key or use environment variable
+  siteKey: "6LcZrRMrAAAAAKllb4TLb1CWH2LR7iNOKmT7rt3L"
+  pageAction: "WALLET_CONNECT"        # The correct page action for the verification process
